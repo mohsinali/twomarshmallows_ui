@@ -1,0 +1,87 @@
+.tags-header {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 1px;
+  color: #5f5f5f;
+}
+
+.tags-header #emphasis {
+  font-weight: bold;
+  color: #f6be91;
+}
+
+.select-tags {
+  background-color: rgba(246, 190, 145, 0.05);
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20px;
+  padding: 30px;
+  line-height: 40px;
+}
+
+/deep/ a {
+  text-decoration: none;
+   margin-top: 10px;
+}
+
+/deep/ .unselected-tag {
+  margin-left: 35px;
+  margin-top: 20px;
+  color: #5f5f5f;
+  font-size: 13px;
+}
+
+/deep/ .unselected-tag:hover { font-weight: bold; }
+
+/deep/ .selected-tag {
+  background-color: #f6be91; 
+  color: #4e4e4e;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+}
+
+/deep/ .progress {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: rgba(246, 190, 145, 0.4);
+
+}
+/deep/ .progress-bar {
+  background-color: #f7945e;
+}
+
+.add-own-hashtag {
+  width: 250px;
+  margin-left: 43%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  
+}
+
+/deep/ .form-control {
+  border: solid 1px #fcbc85;
+  font-size: 13px;
+  color: #5f5f5f;
+}
+
+/deep/ .form-control:focus {
+  border: solid 2px #fcbc85;
+}
+
+/deep/ .btn{
+  background-color: #fcbc85;
+  border: solid 1px #fcbc85;
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/deep/ .fa-plus {
+  font-size: 8px;
+}

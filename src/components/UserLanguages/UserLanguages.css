@@ -1,0 +1,32 @@
+.native-languages,
+.learning-languages {
+	display: block;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.native-languages {
+    float: right;
+}
+
+.learning-languages {
+    border-left: 2px solid rgba(246, 190, 145, 0.4);
+    height: 204px;
+    float: left;
+    padding-left: 30px;
+}
+
+
+.learning-language-question,
+.native-language-question {
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4e4e4e;
+  padding-top: 20px;
+}
+

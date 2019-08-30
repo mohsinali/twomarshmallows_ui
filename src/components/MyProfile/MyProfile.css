@@ -1,0 +1,244 @@
+
+
+.profile {
+   padding: 30px;
+   width: 100%;
+   min-height: 100%;
+   margin-left: 50px;
+}
+
+.back-link a {
+  color: #f6be91;
+  background-color: #ffffff;
+  border: solid 1px #f6be91;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.back-link a:hover {
+   color: #E78E48;
+   border: solid 1px #E78E48;
+}
+
+#profile-content {
+   margin-top: 30px;
+}
+
+.user-profile,
+.user-bio,
+.user-hashtags{
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(246,190,145,0.32);
+  -moz-box-shadow: 0px 0px 4px 1px rgba(246,190,145,0.32);
+  box-shadow: 0px 0px 4px 1px rgba(246,190,145,0.32);
+  background-color: #ffffff;
+  min-height: 200px;
+}
+
+.user-profile {
+  text-align: center;
+}
+
+.username, 
+.bio-header,
+.tags-header,
+.languages-header {
+  font-size: 14px;
+  font-weight: bold;
+  color: #5f5f5f;
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.user-grade {
+  font-size: 10px;
+  color: #f5bd91;
+  font-weight: bold;
+}
+
+.profile-avatar{
+   width: 66px;
+   height: 66px;
+   margin-top: 10px;
+}
+
+.bio {
+  height: 90%;
+}
+
+.user-tags {
+   margin-top: 20px;
+   font-size: 12px;
+   color: #4e4e4e;
+}
+
+.edit-user,
+.edit-user-bio,
+.edit-user-hashtags,
+.profile-button,
+.profile-button-new-hashtags  {
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+
+.profile-button-new-hashtags a,
+.profile-button a{
+   color: #ffffff;
+   font-weight: bold;
+   font-size: 13px;
+   text-decoration: none;
+   background-color: #f6be91;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 30px;
+   padding-right: 30px;
+   border-radius: 5px;
+}
+
+.edit-user-hashtags a,
+.edit-user-bio a,
+.edit-user a{
+  color: #f6be91;
+  font-size: 12px;
+}
+
+.edit-user a .fa-pen {
+   margin-left: 4px;
+}
+
+.edit-user a:hover,
+.edit-user-bio a:hover,
+.edit-user-hashtags a:hover {
+  color: #e78e48;
+  font-weight: bold;
+}
+.profile-button a:hover,
+.profile-button-new-hashtags a:hover{
+   background-color:  #e78e48;
+   color: #ffffff;
+   cursor: pointer;
+}
+
+.user-hashtags {
+   min-height: 400px;
+}
+
+.bio {
+   color: #4e4e4e;
+   text-align: left;
+   font-size: 12px;
+   margin-left: 20px;
+   height: 90px;
+}
+
+.hashtags {
+   text-align: left;
+   font-size: 12px;
+   margin-left: 20px;
+   line-height: 25px;
+}
+
+.languages-header {
+	margin-bottom: 30px;
+}
+
+.user-languages {
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(246,190,145,0.32);
+  -moz-box-shadow: 0px 0px 4px 1px rgba(246,190,145,0.32);
+  box-shadow: 0px 0px 4px 1px rgba(246,190,145,0.32);
+  background-color: #ffffff;
+  min-width: 650px;
+  min-height: 200px;
+  margin-top: -150px;
+}
+
+.tags-body {
+  min-height: 200px;
+}
+
+.delete-tag {
+  color: #ef6648;
+  cursor: pointer;
+}
+
+.native-languages-lbl,
+.learning-languages-lbl {
+  font-size: 12px;
+  margin-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #4e4e4e;
+  font-weight: 500;
+}
+
+.native-languages,
+.learning-languages {
+	font-size: 10px;
+	margin-left: 50px;
+	line-height: 25px;
+}
+
+.learning-languages-lbl,
+.learning-languages {
+	border-left: 1px solid rgba(246, 190, 145, 0.4);
+    padding-left: 30px;
+}
+
+.profile-button-new-hashtags {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #fcf4ed;
+  border-bottom:1px solid #fcf4ed;
+
+}
+
+
+textarea {
+  border: 1px solid #e78e48;
+  border-radius: 5px;
+  font-size: 13px;
+  width: auto;
+  margin-left: 15px;
+}
+
+@media (max-width: 767px) {
+  .back-link {
+    display: none;
+  }
+
+  .profile {
+    margin-left: 0;
+    padding: 5px;
+  }
+
+  .user-languages {
+    min-width: auto;
+    min-height: auto;
+    
+  }
+  .learning-languages-lbl,
+  .learning-languages {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .user-profile,
+  .user-bio,
+  .user-hashtags,
+  .user-languages {
+    margin-top: 10px;
+  }
+
+  #profile-content {
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+}
+
+

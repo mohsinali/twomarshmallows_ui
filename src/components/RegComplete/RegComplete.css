@@ -1,0 +1,45 @@
+.reg-complete-content {
+    margin: 0 auto;
+    width: 400px;
+}
+
+#thank-you,
+#reg-complete-credentials-msg,
+#reg-complete-application-msg {
+ 	font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #4e4e4e;
+  text-align: center;
+}
+
+#thank-you {
+	color: #F5BD91;
+	margin-top: 150px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#reg-complete-application-msg {
+  margin-top: 10px;
+}
+
+#reg-complete-thumbs-up {
+	text-align: center;
+	font-size: 90px;
+  color: #F5BD91;
+  margin-top: 29px;
+}
+
+#reg-complete-credentials-msg {
+	margin-top: 29px;
+}
+
+/deep/ .half-circle-spinner {
+	margin-left: 170px;
+	margin-top:  50px;
+}
+

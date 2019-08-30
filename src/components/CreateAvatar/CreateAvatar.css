@@ -1,0 +1,16 @@
+.avatar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+#user-avatar {
+  width: 128px;
+  height: 128px;
+}
+
+.avatar-selectors {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}

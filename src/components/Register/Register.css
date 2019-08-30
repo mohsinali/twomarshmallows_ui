@@ -1,0 +1,59 @@
+.two-m-register {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.register-logo {
+   margin-top: 20px;
+}
+
+.register-header {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+	text-align: center;
+	color: #F5BD91;
+	width: 100%;
+}
+
+.register-form {
+   margin-top: 30px;
+   align-self: center;
+}
+
+#register {
+   margin-top: 50px;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+#register-link {
+	color: #F5BD91;
+	font-weight: bold;
+
+}
+
+#register-link:hover {
+	color: #E78E48;
+}
+
+/deep/ .vue-tel-input {
+    outline: none !important;
+}
+
+/deep/ .vue-tel-input .dropdown,
+/deep/ .vue-tel-input input {
+  border: 1px solid #F5BD91;
+}
+
+/deep/ .vue-tel-input input:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  box-shadow: none !important;
+  border: 2px solid #E78E48;
+}

@@ -1,0 +1,208 @@
+export default {
+    // global state vars
+    showHeader: true,
+    apiError: {},
+    // login vars
+    userLoggedIn: false,
+    username: 'No User',
+    userVerified: false,
+    userSetup: false,
+    customizationStep: 1,
+    userId:'',
+    // avatar options
+    userAvatarSetup: false,
+    avatarHairOption: { code: 'ShortHairShortFlat', option: 'Flat' },
+    avatarHairOptions: [
+      { code: 'NoHair', option: 'No Hair' },
+      { code: 'Hat', option: 'Hat' },
+    	{ code: 'WinterHat1', option: 'Winter Hat 1' },
+    	{ code: 'WinterHat2', option: 'Winter Hat 2' },
+    	{ code: 'WinterHat3', option: 'Winter Hat 3' },
+    	{ code: 'WinterHat4', option: 'Winter Hat 4' },
+      { code: 'ShortHairShortFlat', option: 'Flat' },
+      { code: 'ShortHairTheCaesar', option: 'The Caesar' },
+      { code: 'ShortHairTheCaesarSidePart', option: 'The Caesar Side Part' },
+      { code: 'ShortHairSides', option: 'Bald' },
+      { code: 'LongHairFro', option: 'Afro' },
+      { code: 'LongHairBigHair', option: 'Big Hair' },
+      { code: 'LongHairBob', option: 'Long Hair Bob' },
+      { code: 'LongHairBun', option: 'Long Hair Bun' },
+      { code: 'LongHairCurly', option: 'Long Hair Curly' },
+      { code: 'LongHairCurvy', option: 'Long Hair Curvy' },
+      { code: 'LongHairStraight', option: 'Long Straight' },
+      { code: 'LongHairStraightStrand', option: 'Long Strands' },
+      { code: 'ShortHairDreads01', option: 'Short Dreads' },
+      { code: 'ShortHairFrizzle', option: 'Frizzle' },
+      { code: 'ShortHairShaggyMullet', option: 'Shaggy Mullet' },
+      { code: 'ShortHairShortCurly', option: 'Short Curly' },
+      { code: 'ShortHairShortRound', option: 'Short Round' },
+      { code: 'ShortHairShortWaved', option: 'Short Waved' },
+    ],
+    avatarAccessoriesOption: { code: 'Blank', option: 'Blank' },
+    avatarAccessoriesOptions: [
+    	{ code: 'Blank', option: 'Blank' },
+    	{ code: 'Kurt', option: 'Kurt' },
+    	{ code: 'Prescription01', option: 'Prescription 01' },
+    	{ code: 'Prescription02', option: 'Prescription 02' },
+    	{ code: 'Round', option: 'Round' },
+    	{ code: 'Sunglasses', option: 'Sunglasses' },
+    	{ code: 'Wayfarers', option: 'Wayfarers' },
+    ],
+    avatarFacialHairOption: { code: 'Blank', option: 'Blank' },
+    avatarFacialHairOptions: [
+      { code: 'Blank', option: 'Blank' },
+      { code: 'BeardMedium', option: 'Beard Medium' },
+      { code: 'BeardLight', option: 'Beard Light' },
+      { code: 'BeardMajestic', option: 'Beard Majestic' },
+      { code: 'MoustacheFancy', option: 'Moustache Fancy' },
+      { code: 'MoustacheMagnum', option: 'Moustache Magnum' },
+    ],
+    avatarFacialHairColorOption: { code: 'Black', option: 'Black' },
+    avatarFacialHairColorOptions: [
+      { code: 'Auburn', option: 'Auburn' },
+      { code: 'Black', option: 'Black' },
+      { code: 'Blonde', option: 'Blonde' },
+      { code: 'BlondeGolden', option: 'Blonde Golden' },
+      { code: 'Brown', option: 'Brown' },
+      { code: 'BrownDark', option: 'Dark Brown' },
+      { code: 'Platinum', option: 'Platinum' },
+      { code: 'Red', option: 'Red' },
+    ],
+    avatarHairColorOption: { code: 'Black', option: 'Black' },
+    avatarHairColorOptions: [
+      { code: 'Black', option: 'Black' },
+      { code: 'Auburn', option: 'Auburn' },
+      { code: 'Blonde', option: 'Blonde' },
+      { code: 'BlondeGolden', option: 'Blonde Golden' },
+      { code: 'Brown', option: 'Brown' },
+      { code: 'BrownDark', option: 'Dark Brown' },
+      { code: 'PastelPink', option: 'Pastel Pink' },
+      { code: 'PastelPink', option: 'Pastel Pink' },
+      { code: 'Platinum', option: 'Platinum' },
+      { code: 'Red', option: 'Red' },
+      { code: 'SilverGray', option: 'Silver Gray' }],
+    avatarClothesOption: { code: 'BlazerShirt', option: 'Blazer Shirt' },
+    avatarClothesOptions: [
+      { code: 'BlazerShirt', option: 'Blazer Shirt' },
+      { code: 'BlazerSweater', option: 'Blazer Sweater' },
+      { code: 'CollarSweater', option: 'Collar Sweater' },
+      { code: 'GraphicShirt', option: 'Graphic Shirt' },
+      { code: 'Hoodie', option: 'Hoodie' },
+      { code: 'Overall', option: 'Overall' },
+      { code: 'ShirtCrewNeck', option: 'Shirt Crew Neck' },
+      { code: 'ShirtScoopNeck', option: 'Shirt Scoop Neck' },
+      { code: 'ShirtVNeck', option: 'Shirt VNeck' },
+    ],
+    avatarSkinColorOption: { code: 'Light', option: 'Light' },
+    avatarSkinColorOptions: [
+      { code: 'Tanned', option: 'Tanned' },
+      { code: 'Yellow', option: 'Yellow' },
+      { code: 'Pale', option: 'Pale' },
+      { code: 'Light', option: 'Light' },
+      { code: 'Brown', option: 'Brown' },
+      { code: 'DarkBrown', option: 'Dark Brown' },
+      { code: 'Black', option: 'Black' },
+    ],
+    // user tags
+    userTags: [],
+    // languages
+    languages: [],
+    nativeLanguages: [],
+    learningLanguages: [],
+    // user bio
+    userBio: '',
+    // user is tutor
+    userIsTutor: false,
+    //  active sidebar link
+    currentActiveSidebarLink: 0,
+    // user community members
+    communityMembers: [
+     { 
+        avatar: {
+          hairOptionValue: { code: 'ShortHairShortFlat', option: 'Flat' },
+          accessoriesOptionValue: { code: 'Blank', option: 'Blank' },
+          facialHairOptionValue: { code: 'Blank', option: 'Blank' },
+          facialHairColorOptionValue: { code: 'Black', option: 'Black' },
+          hairColorOptionValue: { code: 'Black', option: 'Black' },
+          clothesOptionValue: { code: 'BlazerShirt', option: 'Blazer Shirt' },
+          skinColorOptionValue: { code: 'Light', option: 'Light' },
+        },
+        fullname:"Steve Mulish",
+        languages:{ native : [{name:"English", rating: 5}], learning: [ {name:"French", rating:0 } ,{ name: "Akana", rating:0}]} ,
+        tags:["#soccer", "#flowers"],
+        showMemberLinks:false,
+        bio: "This is a bio",
+        grade: "Grade 8",
+        gradeAvailable: false
+      },
+
+    ],
+    // user chatrooms,
+    userChatrooms: [
+      {
+        id: "qwerty12",
+        avatar:{
+            hairOptionValue: { code: 'ShortHairShortFlat', option: 'Flat' },
+            accessoriesOptionValue: { code: 'Blank', option: 'Blank' },
+            facialHairOptionValue: { code: 'Blank', option: 'Blank' },
+            facialHairColorOptionValue: { code: 'Black', option: 'Black' },
+            hairColorOptionValue: { code: 'Black', option: 'Black' },
+            clothesOptionValue: { code: 'BlazerShirt', option: 'Blazer Shirt' },
+            skinColorOptionValue: { code: 'Light', option: 'Light' },
+          },
+        chatroomName: "Main Chat",
+        lastChatrooMessage: "blah blah blah blah blah....",
+        lastChatDatetime: "2019-01-14T13:33:37+03:00",
+        lastChatDatetimeFormatted: "6 hours ago",
+        active: true,
+      },
+      
+
+    ],
+    activeChatroom: 0,
+    // user chats
+    userChats: [
+      {
+        id: "11qq",
+        chatroomId: "qwerty12",
+        mainChatroom: true,
+        senderAvatar:{
+            hairOptionValue: { code: 'ShortHairShortFlat', option: 'Flat' },
+            accessoriesOptionValue: { code: 'Blank', option: 'Blank' },
+            facialHairOptionValue: { code: 'Blank', option: 'Blank' },
+            facialHairColorOptionValue: { code: 'Black', option: 'Black' },
+            hairColorOptionValue: { code: 'Black', option: 'Black' },
+            clothesOptionValue: { code: 'BlazerShirt', option: 'Blazer Shirt' },
+            skinColorOptionValue: { code: 'Light', option: 'Light' },
+          },
+        senderId: "1234569",
+        senderName: "John King",
+        message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        createdOn: "2019-01-14T13:33:37+03:00",
+        createdOnDatetime: "21:09"
+       
+      }, 
+      {
+        id: "11ww",
+        chatroomId: "qwerty12",
+        mainChatroom: true,
+        senderAvatar:{
+            hairOptionValue: { code: 'ShortHairShortFlat', option: 'Flat' },
+            accessoriesOptionValue: { code: 'Blank', option: 'Blank' },
+            facialHairOptionValue: { code: 'Blank', option: 'Blank' },
+            facialHairColorOptionValue: { code: 'Black', option: 'Black' },
+            hairColorOptionValue: { code: 'Black', option: 'Black' },
+            clothesOptionValue: { code: 'BlazerShirt', option: 'Blazer Shirt' },
+            skinColorOptionValue: { code: 'Light', option: 'Light' },
+          },
+        senderId: "mulili_n_rd3b",
+        senderName: "Mulili Nzuki",
+        message: "uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
+        createdOn: "2019-01-14T13:33:37+03:00",
+        createdOnDatetime: "21:10"
+       
+      }, 
+     
+    ],
+    // 
+};

@@ -1,0 +1,147 @@
+
+.row, 
+.content {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	
+}
+.chatrooms-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    overflow-y: scroll;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    margin-left: -10px;
+    margin-top: 3px;
+}
+
+.chats-wrapper {
+	width: 80%;
+    height: 100%;
+	position: absolute;
+    overflow-y: scroll;
+    padding-bottom: 200px;
+    margin-left: 15px;
+}
+
+.chat,
+.chatroom {
+	border: 1px solid rgba(246, 190, 145, 0.5);
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.chatroom.active,
+.chatroom:hover {
+	background-color: rgba(246, 190, 145, 0.2);
+	cursor: pointer;
+}
+
+.chat-sender-avatar,
+.chatroom-member-avatar {
+	max-width: 30px;
+	max-height:  30px;
+}
+
+.chat-main-header,
+.chatroom-header{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+}
+
+.chat-header-divider {
+	border-top: 1px solid #fcf4ed;
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+.chat-sender-name,
+.chatroom-name {
+	font-size: 14px;
+	color: #4e4e4e;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.chat-time-updated,
+.chatroom-time-updated {
+ 	font-size: 12px;
+ 	color: #4e4e4e;
+ 	float: right;
+ 	margin-right: 20px;
+ 	margin-top: 4px;
+}
+
+.chat-main-message,
+.chatroom-last-message {
+	width: 100%;
+	color: #4e4e4e;
+	font-size: 13px;
+	margin-bottom: 10px;
+	padding-left: 60px;
+	padding-right: 20px;
+}
+
+.chat-private-message {
+	width: 100%;
+	color: #4e4e4e;
+	font-size: 13px;
+	padding: 20px;
+}
+
+.chat {
+	width: 400px;
+	background-color: #ffffff;
+}
+
+.chat:hover {
+	cursor: pointer;
+}
+
+.user-chat {
+	margin-left: 300px;
+}
+
+.user-chat  .chat-private-message{
+	background-color: #fbe5d3;
+}
+
+.chats-sender {
+	position: absolute;
+	bottom:0;
+	z-index: 10;
+	background-color:#f8f8f8;
+	margin-left: 5px;
+}
+
+#txt-new-chat {
+	width: 400px;
+	height: 120px;
+	border: 1px solid rgba(199 199 199, 0.5);
+	margin-left: 310px;
+	margin-top: -20px;
+	margin-bottom: 5px;
+}
+
+#paperclip,
+#microphone {
+	position: relative;
+	color: #f6be91;
+	cursor: pointer;
+}
+
+#paperclip {
+	top: 50px;
+	left: 290px;
+}
+
+#microphone {
+	top: 50px;
+	left: 700px;
+}

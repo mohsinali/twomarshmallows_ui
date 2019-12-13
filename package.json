@@ -34,7 +34,7 @@
     "i": "^0.3.6",
     "lint-staged": "^7.2.2",
     "moment": "^2.23.0",
-    "npm": "^6.5.0",
+    "npm": "^6.13.4",
     "randomstring": "^1.1.5",
     "register-service-worker": "^1.5.2",
     "vue": "^2.5.17",

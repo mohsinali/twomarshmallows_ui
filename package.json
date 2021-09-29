@@ -31,7 +31,7 @@
     "countries-list": "^2.3.2",
     "epic-spinners": "^1.0.4",
     "express": "^4.16.4",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "lint-staged": "^7.2.2",
     "moment": "^2.23.0",
     "npm": "^6.5.0",
